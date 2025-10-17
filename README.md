@@ -1,16 +1,25 @@
-# React + Vite
+# 🧠 Neural Portfolio - Interactive AI-Centric Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, neural network-inspired portfolio that visualizes professional experience, research, projects, and skills as an interconnected graph. Built with React and Canvas API.
 
-Currently, two official plugins are available:
+![Neural Portfolio Demo](https://img.shields.io/badge/React-18.x-blue) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.x-38bdf8) ![Vite](https://img.shields.io/badge/Vite-5.x-646cff)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Interactive Neural Network Visualization**: Nodes represent different aspects of professional experience
+- **Real-time Particle Effects**: "Thought particles" flow between connected nodes
+- **Hierarchical Structure**: Clear visual hierarchy from Profile → Experience/Research/Projects
+- **Detailed Modal Views**: Click any node to see comprehensive details
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: 60fps canvas rendering with floating node physics
+- **Direct Links**: Quick access to GitHub, LinkedIn, and Google Scholar profiles
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Node Types
 
-## Expanding the ESLint configuration
+- 🔵 **Profile** - Core professional identity
+- 🟢 **Work Experience** - Professional roles and companies
+- 🟠 **Projects** - Technical projects and implementations
+- 🟣 **Skills** - Technical expertise and tools
+- 🔴 **Achievements** - Awards and recognition
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
